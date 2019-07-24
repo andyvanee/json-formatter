@@ -31,6 +31,7 @@ if (given) {
         })
         .then(txt => {
             editor.set(JSON.parse(txt))
+            editor.expandAll()
         })
 }
 
